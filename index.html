@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="tic.css">
+</head>
+<body>
+    <h1 class="heading">tic tac toe</h1>
+    <div class="tic">
+        <div class="up">
+            <p class="hea1">game start by just tap on box</p>
+            <p class="hea1">first player start as <strong>player X</strong> <br>and second player as  <strong>player 0</strong></p>
+        </div>
+        <div class="mid">
+            <div class="j">
+                <input type="text" onclick="run1();run22()" class="design" id="a1" >
+                <input type="text" onclick="run2();run22()" class="design" id="a2" >
+                <input type="text" onclick="run3();run22()" class="design" id="a3" >
+            </div>
+            <div class="k">
+                <input type="text" onclick="run4();run22()" class="design" id="a4" >
+                <input type="text" onclick="run5();run22()" class="design" id="a5" >
+                <input type="text" onclick="run6();run22()" class="design" id="a6" >
+            </div>
+            
+            <div class="l">
+                <input type="text" onclick="run7();run22()" class="design" id="a7" >
+                <input type="text" onclick="run8();run22()" class="design" id="a8" >
+                <input type="text" onclick="run9();run22()" class="design" id="a9" >
+            </div>
+           
+           
+        </div>
+        <div class="low">
+            <button type="button" class="btn" id="btn1" onclick="resetGame()" > reset </button>
+        </div>
+        <p id="demo"></p>
+    </div>
+    <script src ="toc.js"></script>
+</body>
+</html>

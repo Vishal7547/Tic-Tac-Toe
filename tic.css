@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    color:aqua;
+    font-family: serif;
+    text-align: center;
+    margin-top:5px;
+}
+
+.tic{
+    margin:20px auto;
+    padding:10px;
+    text-align: center;
+    max-width:70%;
+    background-color: #00ff99;
+    border-radius: 10px;
+}
+.hea1{
+    padding:5px 0px;
+    text-transform: capitalize;
+    color:#0000b3;
+    font-weight: bold;
+
+}
+.design{
+    display:inline-block;
+    width:50px;
+    height:40px;
+    text-align: center;
+    border:none;
+    outline: none;
+    padding:15px;
+    margin:1px;
+    background-color:#b3b3b3;
+    color:white;
+    cursor: pointer;
+   
+}
+.btn{
+    padding:12px;
+    margin-top:5px;
+    color:white;
+    background-color:blue;
+    cursor: pointer;
+    width:70px;
+    text-transform: uppercase;
+    border:none;
+
+}
+.btn:hover{
+    background-color: #000080;
+    padding:15px;
+
+}
+#demo{
+    color:red;
+}
